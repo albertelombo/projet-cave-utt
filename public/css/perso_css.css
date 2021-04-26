@@ -1,0 +1,44 @@
+*{
+	margin: 0px;
+	padding: 0px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+}
+body {
+    background: url("../image/fond.jpg") no-repeat fixed ;
+    background-size: cover;
+}
+@media only screen and (max-width:767px){
+    body{
+        padding-top: 370px; 
+    }
+}
+
+.container {
+    margin-top: 60px;
+    background-color: lemonchiffon;
+    width: 90%;
+    height: 80%;
+    min-height: 400px;
+    overflow: auto;
+    opacity: 0.9;
+}
+
+.jumbotron {
+  background-color:plum;
+
+}
+footer{
+    width: 100%;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    position: relative;
+    top: 10px;
+}
+.float-right{
+    width: 40%;
+    float: right;
+    clear: both;
+}
